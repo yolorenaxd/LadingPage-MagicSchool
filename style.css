@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sarala&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to left top, #5956aa, #43408d, #2e2c71, #171856, #03013d);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.header-item {
+    display: flex;
+    margin-left: 32px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.header-item:hover {
+    color: rgb(52 196 126);
+    cursor: pointer;
+}
+.content {
+    height: calc(100vh - 82px);
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.mage {
+    max-width: 245px;
+}
+.main-group {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.title-content {
+    font-size: 55px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.content-button {
+    background-color:rgb(52 196 126);
+    width: 180px;
+    height: 60px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.content-button:hover {
+    background-color: rgb(74, 207, 143);
+    cursor: pointer;
+}
+.content-paragraph {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+.infs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 650px;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.fa {
+    margin-left: 30px;
+    font-size: 20px;
+    color: #FFF;
+}
+.fa:hover {
+    color: rgb(52 196 126);
+    cursor: pointer;
+}
